@@ -1,0 +1,10 @@
+version: '3'
+services:
+  entrypoint_example_execform:
+    container_name: entrypoint_example_execform
+    hostname: entrypoint_example_execform
+    build: ./entrypoint_example_execform
+  entrypoint_example_shellform:
+    container_name: entrypoint_example_shellform
+    hostname: entrypoint_example_shellform
+    build: ./entrypoint_example_shellform
